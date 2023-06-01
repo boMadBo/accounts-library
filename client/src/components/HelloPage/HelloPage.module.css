@@ -1,0 +1,22 @@
+.hello_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.hello {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 90vh;
+  margin-top: 100px;
+}
+
+.btn_group {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  width: 50vh;
+  margin-top: 60px;
+}

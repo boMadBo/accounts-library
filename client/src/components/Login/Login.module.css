@@ -1,0 +1,25 @@
+.login {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  width: 430px;
+  height: 90vh;
+  background-color: rgb(130, 196, 220);
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.check_input:checked {
+  background-color: #0077ff;
+}

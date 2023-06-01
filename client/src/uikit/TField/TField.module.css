@@ -1,0 +1,24 @@
+.field_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 320px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.field_label {
+  margin-bottom: 6px;
+}
+
+.field_input {
+  width: 320px;
+  border: none;
+  background-color: #e1e3e6;
+  border-radius: 6px;
+}
+
+.hidden_fieldset {
+  display: none;
+}

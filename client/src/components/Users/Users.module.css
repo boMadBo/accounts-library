@@ -1,0 +1,46 @@
+.users {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 500px;
+  height: 90%;
+  background-color: rgb(130, 196, 220);
+}
+
+.wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  margin: 30px;
+  grid-gap: 35px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(170, 209, 223);
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: 0.5px solid rgb(140, 62, 150);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  gap: 5px;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 0.5px solid rgb(140, 62, 150);
+}
+
+.text {
+  font-weight: 500;
+  font-size: 18px;
+  color: #474646dc;
+}

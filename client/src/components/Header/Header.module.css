@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  background: linear-gradient(to right, rgb(140, 62, 150), rgb(213, 90, 90));
+}
+
+.title {
+  color: #ffffffde;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.navi {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+  color: #ffffffde;
+}
